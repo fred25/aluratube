@@ -3,6 +3,7 @@ import styled from "styled-components";
 import { CSSReset } from "../src/components/CSSReset";
 import Menu from "../src/components/Menu";
 import { StyledTimeline } from "../src/components/Timeline";
+import Favorites from "../src/components/Favorites";
 
 function HomePage() {
     const estilosDaHomePage = {
@@ -81,6 +82,7 @@ function Timeline(props) {
                     </section>
                 );
             })}
+            <Favorites favorites={config.favorites}/>
         </StyledTimeline>
     );
 }

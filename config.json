@@ -133,5 +133,20 @@
         ]
     },
     "favorites":[
+        {
+            "name": "Pirulla",
+            "picture": "https://yt3.ggpht.com/ytc/AMLnZu-HVpr3oVQS6o2hXWyO_wWIKZ0n5ioWBgyp4reS=s88-c-k-c0x00ffffff-no-rj",
+            "url": "https://www.youtube.com/user/Pirulla25"
+        },
+        {
+            "name": "Nesu Nhamo",
+            "picture": "https://yt3.ggpht.com/A9icdxOEbFiiWPAZhq-T-6WHbKxF1eX2aCNO_StQBDn82q0pv7K_qqt6NpxALDRNv4kfr5D22EM=s88-c-k-c0x00ffffff-no-rj",
+            "url": "https://www.youtube.com/c/NesuNhamo"
+        },
+        {
+            "name": "3Blue1Brown",
+            "picture": "https://yt3.ggpht.com/ytc/AMLnZu8dZDGzDIUnqCP_oUpqM4d0j76M9dNBlz_e7_z7Pg=s88-c-k-c0x00ffffff-no-rj",
+            "url": "https://www.youtube.com/c/3blue1brown"
+        }
     ]
 }
