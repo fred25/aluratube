@@ -1,22 +1,17 @@
 import React from "react";
 import config from "../config.json";
 import styled from "styled-components";
-import { CSSReset } from "../src/components/CSSReset";
 import Menu from "../src/components/Menu";
 import { StyledTimeline } from "../src/components/Timeline";
 import Favorites from "../src/components/Favorites";
 
 function HomePage() {
-    const estilosDaHomePage = {
-        //"background-color": "red"
-    };
 
     const [valorDoFiltro, setValorDoFiltro] = React.useState("");
 
     return (
         <>
-            <CSSReset />
-            <div style={estilosDaHomePage}>
+            <div>
                 <Menu valorDoFiltro={valorDoFiltro} setValorDoFiltro={setValorDoFiltro}/>
                 <Header />
                 <Timeline searchValue={valorDoFiltro} playlists={config.playlists} />
@@ -28,6 +23,8 @@ function HomePage() {
 export default HomePage;
 
 const StyledHeader = styled.div`
+    background-color: ${({theme}) => theme.backgroundLevel1};
+
     .banner-img{
         width: 100%;
         aspect-ratio: 10/2;

@@ -21,7 +21,7 @@ const StyledFavorites = styled.div`
     }
     p{
         margin: 20px;
-        color: black;
+        color: ${({theme})=> theme.textColorBase};
         font-family: Helvetica, sans-serif;
         font-size: 14px;
     }
