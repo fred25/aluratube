@@ -5,6 +5,7 @@
   <li><a href = "#desaf">Deafios</a></li>
   <li><a href = "#tec">Tecnologias</a></li>
   <li><a href="#sobre">Sobre a Imersão</a></li>
+  <li><a href="#como">Como está o projeto?</a></li>
 </ul>
 
 <h2 id="desc">Descrição</h2>
@@ -29,3 +30,8 @@ Foram utilidas as sequintes tecnologias:
 
 <h2 id="sobre">Sobre a Imersão</h2>
 A imersão está ocorrendo entre os dias 7 e 14 de novembro com aulas sendo liberada todos os dias de aproximadamente 1h40min, com conteúdo muito denso e desafios que me puxão além do que foi ensinado nas aulas.
+
+<h2 id="como">Como está o nosso projeto</h2>
+-`_app.js`: carrega as configurações do projeto
+  - aqui ficam os provigers
+  - CSSReser.js
